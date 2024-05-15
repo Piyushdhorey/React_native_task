@@ -12,8 +12,8 @@ const Stack = createStackNavigator()
 
 const HomeTabs = () => (
   <Tab.Navigator>
-    <Tab.Screen name="AddEmployees" component={AddEmployeesScreen} />
-    <Tab.Screen name="Home" component={HomeScreen} />
+    <Tab.Screen name="AddEmployees" component={AddEmployeesScreen} options={{headerShown: false}}/>
+    <Tab.Screen name="Home" component={HomeScreen} options={{headerShown: false}} />
   </Tab.Navigator>
 );
 
